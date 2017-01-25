@@ -1,0 +1,34 @@
+package dustbin;
+
+import garbage.Garbage;
+
+import java.util.ArrayList;
+
+public class Dustbin {
+	
+	private String color;
+	private 
+	private ArrayList<Garbage> paperContent;
+	private ArrayList<Garbage> plasticContent;
+	private ArrayList<Garbage> houseWaste;
+		
+	public Dustbin(String color){
+		this.color = color;
+		paperContent = new Garbage[10];
+		plasticContent = new Garbage[10];
+		houseWaste = new Garbage[10];
+	}
+	
+	public void throwOutGarbage(Garbage garbage){
+		if(garbage instanceof PlasticGarbage)
+			if(((PlasticGarbage) garbage).isClean())
+				plasticContent.
+	}
+	
+	public void emptyContents(){
+		paperContent = new Garbage[10];
+		plasticContent = new Garbage[10];
+		houseWaste = new Garbage[10];
+	}
+
+}

@@ -1,0 +1,16 @@
+package dustbin;
+
+import garbage.*;
+
+public class Dustbin {
+	
+	private String color;
+	private Garbage[] paperContent;
+	private Garbage[] plasticContent;
+	private Garbage[] houseWaste;
+		
+	public static void main(String[] args) {
+		
+	}
+
+}
