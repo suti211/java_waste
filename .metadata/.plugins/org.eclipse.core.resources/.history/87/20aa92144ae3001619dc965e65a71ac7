@@ -1,0 +1,7 @@
+package garbage;
+
+private boolean isSqueezed;
+
+public class PaperGarbage extends Garbage {
+
+}
